@@ -3,6 +3,7 @@
 {% block title %}Home Page{% endblock %}
 
 {% block content %}
+    <a href="{% url 'feed:post' %}">Add a new post</a>
     {% for post in posts %}
         <a href="{% url 'feed:detail' post.id %}">
             <h1>{{post}}</h1>
