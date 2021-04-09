@@ -46,7 +46,7 @@ wheels/
 *.egg 
 *.manifest 
 *.spec 
-commands.docx
+*.docx
 media/
 
 # Installer logs 
