@@ -2,6 +2,7 @@
 {% block title %}Detail view{% endblock %}
 
 {% block content%}
+
     <a href="{% url 'feed:index' %}">Go Back</a>
     {{object.text}}
     <img src="{{object.image.url}}" alt=""> 
